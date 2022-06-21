@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf84b28-efc7-4bb6-8949-7396d0cf34f2" name="Changes" comment="&quot;New full from kendalll&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/SalesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/TriesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/SalesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/TriesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Sales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Tries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/SalesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/TriesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
