@@ -29,9 +29,9 @@ public class Cart {
    @ManyToOne
    @JoinColumn(name="userId", nullable = false)
    private Users user;
-   //@ManyToOne
-   //@JoinColumn(name="orderId", nullable = false)
-  // private Order order;
+   @ManyToOne
+   @JoinColumn(name="orderId", nullable = false)
+    private Order order;
 
     private enum Status {
         PENDING,

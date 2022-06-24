@@ -24,12 +24,14 @@ public class CartController {
     @GetMapping
     public List<Cart> getAllOrders(){return cartService.getAllOrders();}
 
-    /* Create a new cart with the amount, the user ID and the orderID
+    //Create a new cart with the amount, the user ID and the orderID
     @PostMapping("submit")
     public void postCart(@RequestBody Map<String , Object> c){
-        return cartService.postCart();
+        return cartService.postCart(Double.parseDouble(c.get("amount").toString()),
+                Integer.parseInt(c.get("userId").toString()),
+                Integer.parseInt(c.get("orderId").toString()));
     }
-    */
+
 }
 
 
