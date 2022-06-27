@@ -6,9 +6,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 
-@Component
+@Repository
 public interface UserRepository extends JpaRepository<Users, Integer> {
 
 
@@ -23,6 +24,7 @@ public interface UserRepository extends JpaRepository<Users, Integer> {
 
     @Query("from Users where tryId = :tryId")
     Users findTryId(@Param("tryId") int id);
+
 }
 
 

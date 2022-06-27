@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf84b28-efc7-4bb6-8949-7396d0cf34f2" name="Changes" comment="&quot;New full from kendalll&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

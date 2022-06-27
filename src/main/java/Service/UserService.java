@@ -33,6 +33,11 @@ public class UserService{
     public void createUser(Users u){
         userRepository.save(u);
     }
+    public void update(Users users) {
+        userRepository.save(users);
+    }
+
+
     /*
     public String updateUser(Users u) {
         Users usersid=userRepository.findUserById(u.getUserId());

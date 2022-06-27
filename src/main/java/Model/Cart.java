@@ -17,9 +17,11 @@ public class Cart {
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int userId;
+    private int cartId;
     @Column
-    private double amount;
+    private String userId;
+    @Column
+    private float amount;
     @Column
     private int checkoutId;
     @Column

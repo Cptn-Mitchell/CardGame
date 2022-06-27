@@ -13,9 +13,9 @@ import java.util.List;
 public interface CartRepository extends JpaRepository<Cart, Integer> {
 
 
-    @Query("FROM Cart where orderId = orderId")
+    @Query("FROM Cart where orderId = :orderId")
     public List<Cart> getOrderByOrderId(@Param("orderId")int orderId);
-    @Query("FROM Cart where userId = userId")
+    @Query("FROM Cart where userId = :userId")
     public List<Cart> getOrderByUserId(@Param ("userId")int userId);
     @Query("* From Cart" )
     public List<Cart> getAllOrders();

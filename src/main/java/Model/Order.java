@@ -20,7 +20,7 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int orderId;
     @Column
-    private int userId;
+    private String userId;
     @Column
     private double total;
     @Column
@@ -29,6 +29,12 @@ public class Order {
     private int salesId;
     @Column
     private String description;
+    @ManyToOne
+    @JoinColumn (name="userId", nullable = false)
+    private Users user;
+
+
+
 
 
 }
