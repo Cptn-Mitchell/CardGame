@@ -1,5 +1,4 @@
 package CardGame.Model;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,16 +11,17 @@ import javax.persistence.*;
 @Data
 @ToString
 @Entity
-public class Users {
+public class Product {
     @Id
     @Column
-    private String userId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int productId;
     @Column
-    private String email;
+    private String productName;
     @Column
-    private String username;
+    private String productDescription;
     @Column
-    private String password;
-    @Column
-    private boolean isOnline;
+    private Double productPrice;
+
+
 }

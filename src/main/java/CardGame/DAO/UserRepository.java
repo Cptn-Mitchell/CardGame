@@ -12,8 +12,8 @@ import org.springframework.stereotype.Component;
 public interface UserRepository extends JpaRepository<Users, Integer> {
 
 
-    @Query("from Users")
-    Users findUserById(@Param("userId") int id);
+    @Query("from Users where userId = :userId")
+    Users findUserById(@Param("userId") String id);
 
     @Query("from Users where username = :username")
     Users findUsername(@Param("username") String name);

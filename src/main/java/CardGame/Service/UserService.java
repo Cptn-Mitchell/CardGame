@@ -4,6 +4,7 @@ import CardGame.DAO.UserRepository;
 import CardGame.Model.Users;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
@@ -18,7 +19,7 @@ public class UserService{
     public List<Users> getAllUser(){
         return userRepository.findAll();
     }
-    public Users getUserById(int id){
+    public Users getUserById(String id){
         return userRepository.findUserById(id);
     }
     public Users getUsername(String name){
@@ -33,25 +34,9 @@ public class UserService{
     public void createUser(Users u){
         userRepository.save(u);
     }
-    /*
-    public String updateUser(Users u) {
-        Users usersid=userRepository.findUserById(u.getUserId());
-        Users usernameProfile=userRepository.findUsername(u.getUsername());
-        if (usersid!=null){
-            System.out.println("step1");
-            if (userid!=null&&!=usersid.getUserId()) {
-                return "User info cannot be updated because username already exists!";
-            }else if(emailCheck!=null&&emailCheck.getUser_id()!=temp.getUser_id()){
-                return "User info cannot be updated.";
-            }else if (usersid.getUserId()==usersid.getUserId()){
-                userRepository.save(usersid);
-                return "User info successfully updated!";
-            }
-        }else{
-            return "Could not update the user. Please fill out the form correctly";
-        }
-        return "unknown error";
+    public void update(Users users) {
+        userRepository.save(users);
     }
 
-     */
+
 }

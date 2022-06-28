@@ -1,7 +1,6 @@
 package CardGame.Controller;
 
 import CardGame.Model.Sales;
-import CardGame.Model.Tries;
 import CardGame.Service.SalesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
